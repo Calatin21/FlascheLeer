@@ -27,7 +27,6 @@
             Console.WriteLine(fWein2.IstLeer());
             Console.WriteLine(fWein2.Leeren().Herkunft);
             Console.WriteLine(fWein2.IstLeer());
-
         }
     }
 }
