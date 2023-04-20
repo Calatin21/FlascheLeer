@@ -9,10 +9,10 @@
             Bier guinnes = new Bier() {  Typ = "Bier", Brauerei = "Dublin", information = "Nur gezapft echter Geschmack" };
             fBier.Fuellen(guinnes, guinnes.Typ);
 
-            Rotwein burgunder = new Rotwein() {  Typ = "Rotwein", Herkunft = "Frankreich", Information = "Melone und Ahorn Aromen im Abgang" };
+            Rotwein burgunder = new Rotwein() {  Typ = "Rotwein", Herkunft = "Frankreich", information = "Melone und Ahorn Aromen im Abgang" };
             fWein1.Fuellen(burgunder, burgunder.Typ);
 
-            Weißwein riesling = new Weißwein() { Typ = "Weißwein", Herkunft = "Deutschland", Information = "Birne und Apfel Aromen im Abgang" };
+            Weißwein riesling = new Weißwein() { Typ = "Weißwein", Herkunft = "Deutschland", information = "Birne und Apfel Aromen im Abgang" };
             fWein2.Fuellen(riesling, riesling.Typ);
 
             Console.WriteLine(fBier.Inhalt);

@@ -1,21 +1,21 @@
 ﻿namespace FlascheLeer {
     internal class Flasche<T> where T : Getraenk {
-        T Value;
-        public String Inhalt { get; set; }
+        T Inhalt;
+        public String InhaltInWorten { get; set; }
         public bool IstLeer() {
-            bool ergebnis = false;
-            if (Value == null) {
-                ergebnis = true;
+            if (Inhalt == null) {
+                return true;
             }
-            return ergebnis;
+            else {
+                 return false; }
         }
         public void Fuellen(T t, String typ) {
-            Value = t;
+            Inhalt = t;
             Inhalt = typ;
         }
         public T Leeren() {
-            T inhalt = Value;
-            Value = null;
+            T inhalt = Inhalt;
+            Inhalt = null;
             return inhalt;
         }
     }
